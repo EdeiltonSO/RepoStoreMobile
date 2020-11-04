@@ -22,7 +22,15 @@ export default function App() {
   }, []);
 
   async function handleLikeRepository(id) {
-    
+    try {
+      const like = await api.post(`repositories/${id}/like`);
+      const repoIndex = repositories.findIndex(r => r.id === id);
+      
+      repositories[repoIndex].likes = like.data.likes;
+      setRepositories([...repositories]);
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   return (
@@ -48,7 +56,7 @@ export default function App() {
                   style={styles.likeText}
                   testID={`repository-likes-${repo.id}`}
                 >
-                  {repo.likes} curtidas
+                  {repo.likes} {repo.likes === 1 ? "curtida" : "curtidas"}
                 </Text>
               </View>
 
