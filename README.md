@@ -1,6 +1,6 @@
 # Sobre o RepoStoreMobile
 
-O RepoStore é uma aplicação para armazenar repositórios do GitHub, dividida em três partes: front-end web, back-end e front-end mobile (este repositório).
+O RepoStore é uma aplicação para armazenar repositórios do GitHub, dividida em três partes: [front-end web](https://github.com/EdeiltonSO/RepoStoreWeb), [back-end](https://github.com/EdeiltonSO/RepoStoreServer) e front-end mobile (este repositório).
 
 Por meio da versão mobile, o usuário pode visualizar o título, tecnologias utilizadas e o número de likes de cada repositório armazenadosno back-end. Além disso, é possível curtir os repositórios listados.
 
