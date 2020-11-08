@@ -33,7 +33,7 @@ Com tudo configurado, basta seguir os passos abaixo:
 * ```yarn```;
 * ```yarn start```;
 
-Abra outra instância do terminal e, como o emulador aberto (ou device físico conectado), prossiga com:
+Abra outra instância do terminal e, como o emulador aberto (ou um device físico conectado), prossiga com:
 * ```yarn android``` para executar a versão Android e/ou ```yarn ios``` para executar a versão iOS;
 
 ## Observações
