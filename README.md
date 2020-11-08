@@ -41,4 +41,4 @@ Abra outra instância do terminal e, como o emulador aberto (ou device físico c
 Caso ocorra um ```Network Error``` na execução do app em emuladores Android, abra uma instância do terminal e execute o comando ```adb reverse tcp:3333 tcp:3333``` e recarregue a aplicação;
 
 ### 2. Back-end
-Sem o back-end (ou com um back-end sem repositórios), o app somente mostrará uma tela roxa. Assim, é fundamental executar o [back-end RepoStoreServer](https://github.com/EdeiltonSO/RepoStoreServer) e adicionar um repositório de teste para visualizar o resultado da busca.
+Sem o back-end (ou com um back-end sem repositórios), o app somente mostrará uma tela roxa. Assim, é fundamental executar o [RepoStoreServer](https://github.com/EdeiltonSO/RepoStoreServer) e adicionar um repositório de teste para visualizar o resultado da busca.
